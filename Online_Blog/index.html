@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-sky-950">
+    <div class="w-[100%] lg:w-3/4 mx-auto bg-sky-800 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-blue-950 text-white p-5 flex justify-between items-center border-b-8 border-sky-950">
+        <h1 class="text-3xl font-bold">AD Blog</h1>
+        <nav>
+            <ul class="flex space-x-4 text-xl ">
+                <li><a href="#" class="hover:font-bold">Home</a></li>
+                <li><a href="#" class="hover:font-bold">About</a></li>
+                <li><a href="#" class="hover:font-bold">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto py-10 px-10">
+        <h2 class="text-3xl font-bold text-center mb-6 text-sky-100">Featured Posts</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center " >
+                <img src="./image/wrestling.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="Wrestling">
+                <h3 class="text-xl font-bold">Senegalese Wrestling </h3>
+                <p class="text-gray-600">This a traditionnal sport of Senegal. Today, wrestlers can touch about $30.000 per fight.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
+                <img src="./image/transport.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="Transport">
+                <h3 class="text-xl font-bold">Transport</h3>
+                <p class="text-gray-600">To join build a physical network in the word, we need to travel by the best possibilities</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
+                <img src="./image/politic.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="Politic">
+                <h3 class="text-xl font-bold">Politic</h3>
+                <p class="text-gray-600">All our life can be summarized to politic, and i am sure. That's rigght</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
+                <img src="./image/movie.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="Movie">
+                <h3 class="text-xl font-bold">Movie</h3>
+                <p class="text-gray-600">Do you like movie, wait for this </p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
+                <img src="./image/tech.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="Tech">
+                <h3 class="text-xl font-bold">Tech</h3>
+                <p class="text-gray-600"> To understant the word, we need Tech.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-lg text-center">
+                <img src="./image/lifestyle.jfif" class="rounded-lg mb-4 w-[500px] h-[500px] object-cover" alt="lifestyle">
+                <h3 class="text-xl font-bold">Lifestyle</h3>
+                <p class="text-gray-600">Here, we are talking about lifestyle/p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Category Section -->
+    <section class="container mx-auto py-10 text-center">
+        <h2 class="text-3xl font-bold mb-6 text-sky-100">Categories</h2>
+        <div class="flex space-x-4 justify-center">
+            <span class="bg-blue-200 text-blue-700 px-4 py-2 rounded-full">Tech</span>
+            <span class="bg-green-200 text-green-700 px-4 py-2 rounded-full">Lifestyle</span>
+            <span class="bg-red-200 text-red-700 px-4 py-2 rounded-full">Travel</span>
+            <span class="bg-yellow-200 text-yellow-700 px-4 py-2 rounded-full">Sport</span>
+            <span class="bg-sky-200 text-sky-700 px-4 py-2 rounded-full">Politic</span>
+            <span class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">Transport</span>
+            <span class="bg-pink-200 text-pink-700 px-4 py-2 rounded-full">Movie</span>
+        </div>
+    </section>
+    
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6 text-sky-100">Recent Posts</h2>
+        <ul class="bg-sky-700 p-6 rounded-lg shadow-lg text-blue-100 text-3xl">
+            <li class="mb-4 cursor-pointer"><strong>Wrestling: Ama  Baldé vs Franc</strong> - Jan 10, 2025</li>
+            <li class="mb-4 cursor-pointer"><strong>Deforestion in Senegal</strong> - Feb 5, 2025</li>
+            <li class="mb-4 cursor-pointer"><strong>Tunisie's culture</strong> - Mar 12, 2025</li>
+            <li class="mb-4 cursor-pointer"><strong>Now, we have Unated State of Africa like United States of America. Africa is the most powerful</strong> - Mar 25, 2025</li>
+            <li class="mb-4 cursor-pointer"><strong>Donald, 47th President of American United States </strong> - Mar 13, 2025</li>
+            <li class="mb-4 cursor-pointer"><strong>Macron, the President hated by his own poeple</strong> - Mar 14, 2025</li>
+
+        </ul>
+    </section>
+    
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto py-10 text-center">
+        <h2 class="text-3xl font-bold mb-6 text-sky-100">Subscribe to Our Newsletter</h2>
+        <form class="bg-white p-6 rounded-lg shadow-lg inline-block">
+            <input type="email" placeholder="Enter your email" class="p-2 border rounded-l-lg">
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-r-lg">Subscribe</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-blue-950 text-white p-5 text-center border-t-8 border-sky-950">
+        <p>&copy; 2025 My Blog. All Rights Reserved.</p>
+        <div class="flex justify-center space-x-4 mt-2">
+            <a href="#" class="hover:text-gray-400">Facebook</a>
+            <a href="#" class="hover:text-gray-400">Twitter</a>
+            <a href="#" class="hover:text-gray-400">Instagram</a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
